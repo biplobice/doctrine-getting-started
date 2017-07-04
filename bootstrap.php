@@ -14,6 +14,8 @@ $paths = [__DIR__."/src"];
 // $paths = [__DIR__."/config/xml"];
 // $paths = [__DIR__."/config/yaml"];
 
+$isDevMode = true;
+
 $config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode);
 
 // database configuration parameters
